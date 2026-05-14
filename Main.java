@@ -1,17 +1,16 @@
-class Animal{
-    void eat(){
-        System.out.println("Animal is eating");
-    }
+
+interface Animal{
+    void sound();
 }
-class Dog extends Animal{
-    void bark(){
-        System.out.println("Dog is barking");
+
+    class Dog implements Animal{
+        public void sound(){
+            System.out.println("Dog barks");
+        }
     }
-}
-public class Main{
-    public static void main(String[] args){
-        Dog d=new Dog();
-        d.eat();
-        d.bark();
+    public class Main{
+        public static void main(String[] args){
+            Dog obj=new Dog();
+            obj.sound();
+        }
     }
-}
