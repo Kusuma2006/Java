@@ -68,7 +68,7 @@ public class StudentCRUD {
 
     public static void main(String[] args) {
 
-        insertStudent("Soundarya",19,95.5);
+        insertStudent("S",19,95.5);
 
         System.out.println("\nStudents List:");
 

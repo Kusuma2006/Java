@@ -2,7 +2,7 @@ import java.sql.*;
 
 public class JDBCConnectionTest {
     public static void main(String[] args) {
-        String url      = "jdbc:mysql://localhost:3306/school_db";
+        String url      = "jdbc:mysql://localhost:3306 ";
         String user     = "root";
         String password = "cec123";
 
@@ -19,4 +19,4 @@ public class JDBCConnectionTest {
             System.out.println("Error: " + e.getMessage());
         }
     }
-}
+}      

@@ -66,7 +66,7 @@ public class StudentCRUD1 {
         deleteStudent(12);
        
         System.out.println("After Deletion:");
-        getAllStudents();
+        getAllStudents();s
         
         
     }
